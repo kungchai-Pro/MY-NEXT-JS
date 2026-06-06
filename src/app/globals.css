@@ -1,20 +1,26 @@
 @import "tailwindcss";
 
 @theme {
-  /* Typography */
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  /* Brand palette — oklch for perceptually uniform steps */
+  --color-brand-50: oklch(0.97 0.015 264);
+  --color-brand-100: oklch(0.93 0.04 264);
+  --color-brand-200: oklch(0.86 0.09 264);
+  --color-brand-300: oklch(0.76 0.15 264);
+  --color-brand-400: oklch(0.64 0.19 264);
+  --color-brand-500: oklch(0.54 0.22 264);
+  --color-brand-600: oklch(0.47 0.21 264);
+  --color-brand-700: oklch(0.40 0.18 264);
+  --color-brand-800: oklch(0.32 0.14 264);
+  --color-brand-900: oklch(0.24 0.10 264);
+  --color-brand-950: oklch(0.16 0.06 264);
+
+  /* Typography — injected by next/font via CSS variable */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: ui-monospace, "Cascadia Code", monospace;
+}
 
-  /* Brand colours — override these per project */
-  --color-brand-50: oklch(97% 0.01 250);
-  --color-brand-100: oklch(93% 0.03 250);
-  --color-brand-500: oklch(55% 0.18 250);
-  --color-brand-600: oklch(47% 0.18 250);
-  --color-brand-700: oklch(40% 0.16 250);
-
-  /* Semantic tokens */
-  --color-background: var(--color-white);
-  --color-foreground: oklch(15% 0 0);
-  --color-muted: oklch(60% 0 0);
-  --color-border: oklch(90% 0 0);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
