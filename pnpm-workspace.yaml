@@ -1,0 +1,7 @@
+allowBuilds:
+  '@firebase/util': true
+  protobufjs: true
+  sharp: true
+
+publicHoistPattern:
+  - '@swc/helpers'

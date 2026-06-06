@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", monospace;
+
+  /* Brand colours — override these per project */
+  --color-brand-50: oklch(97% 0.01 250);
+  --color-brand-100: oklch(93% 0.03 250);
+  --color-brand-500: oklch(55% 0.18 250);
+  --color-brand-600: oklch(47% 0.18 250);
+  --color-brand-700: oklch(40% 0.16 250);
+
+  /* Semantic tokens */
+  --color-background: var(--color-white);
+  --color-foreground: oklch(15% 0 0);
+  --color-muted: oklch(60% 0 0);
+  --color-border: oklch(90% 0 0);
+}
