@@ -14,7 +14,27 @@
       "Bash(pkill -f \"next dev\")",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(mkdir -p \\\\ *)",
+      "Bash(pnpm add *)",
+      "Bash(/Users/kung/.local/share/pnpm/pnpm add *)",
+      "Bash(npx pnpm *)",
+      "Read(//usr/local/bin/**)",
+      "Bash(node -e \"console.log\\(process.execPath\\)\")",
+      "Bash(find /usr/local /opt/homebrew ~/.pnpm-store ~/Library -name \"pnpm\" -type f 2>/dev/null | head -5 ; ls /Users/kung/Desktop/my-next-js/node_modules/.bin/tsx 2>/dev/null && echo \"tsx exists\" || echo \"tsx missing\")",
+      "Read(//usr/local/**)",
+      "Bash(/usr/local/bin/node /usr/local/lib/node_modules/pnpm/bin/pnpm.cjs --version)",
+      "Bash(corepack enable *)",
+      "Bash(corepack pnpm *)",
+      "Bash(/Users/kung/Library/pnpm/store/v11/links/@pnpm/exe/11.5.2/75881459185660c6a3e4140f14ae0ef9246bba321ba9782345f0d788060dfda1/node_modules/@pnpm/exe/pnpm install *)",
+      "Bash(/usr/local/bin/node node_modules/.bin/tsc --noEmit)",
+      "Bash(/usr/local/bin/node node_modules/typescript/bin/tsc --noEmit)"
+    ],
+    "additionalDirectories": [
+      "/Users/kung/Desktop/my-next-js/src/app/products"
     ]
   }
 }
